@@ -7,14 +7,21 @@
  */
  @font-face {
     font-family: 'UbuntuMono';
-    src:url('fonts/UbuntuMono?-i5ysuu') format('woff'),
-        url('fonts/UbuntuMono?-i5ysuu') format('truetype');
+    src:url('fonts/UbuntuMono.woff') format('woff'),
+        url('fonts/UbuntuMono.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.woff?-i5ysuu') format('woff'),
+      url('fonts/icomoon.ttf?-i5ysuu') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 [class^="icon-"], [class*=" icon-"] {
-    font-family: 'UbuntuMono';
+    font-family: 'icomoon';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -73,7 +80,7 @@ body {
     /**
     font-family:"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
     **/
-    font-family: "Iowan Old Style", "Ovo", "Hoefler Text", Georgia, "Times New Roman", "TIBch", "Source Han Sans", "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "UbuntuMono", "Iowan Old Style", "Ovo", "Hoefler Text", "Times New Roman", "TIBch", "Source Han Sans", "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", sans-serif;
     /**-webkit-font-smoothing: antialiased;**/
     -moz-osx-font-smoothing: grayscale;
 }
@@ -99,8 +106,8 @@ mark {
     background: #fffdd1;
 }
 pre, code {
-    font-family:Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
-    font-size:.92857em;
+    font-family:"UbuntuMono", Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
+    font-size:1em;
 }
 pre {
     overflow:auto;
