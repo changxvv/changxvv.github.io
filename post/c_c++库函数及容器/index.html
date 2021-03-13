@@ -18,7 +18,7 @@
         
     <meta property="article:modified_time" content='2020-12-20T20:56:51&#43;08:00'>
         
-    <meta name="Keywords" content="234">
+    <meta name="Keywords" content="计算机科学技术, 软件开发, ICPC/OI">
     <meta name="description" content="C/C&#43;&#43;库函数及容器">
         
     <meta name="author" content="Changxv">
@@ -32,12 +32,10 @@
     
     
     
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
     
     
     
-        <link rel="stylesheet" href='/css/douban.css'>
-    
-        <link rel="stylesheet" href='/css/other.css'>
     
 </head>
 
@@ -52,7 +50,7 @@
                         Changxv的博客
                     </a>
                 
-                <p class="description">Changxv的个人博客</p>
+                <p class="description">O mon âme, n’aspire à la vie immortelle, mais épuise le champ du possible.</p>
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
@@ -141,24 +139,7 @@
 <div class="post-toc" style="position: absolute; top: 188px;">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#c-library">C library</a>
-      <ul>
-        <li><a href="#ctype">ctype</a></li>
-        <li><a href="#math">math</a></li>
-        <li><a href="#stdlib">stdlib</a></li>
-        <li><a href="#string">string</a></li>
-      </ul>
-    </li>
-    <li><a href="#c-拓展库">C++ 拓展库</a>
-      <ul>
-        <li><a href="#rope">rope</a></li>
-        <li><a href="#pb_ds">pb_ds</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+        
     </div>
 </div>
 <script type="text/javascript">
@@ -205,7 +186,9 @@
         
         <div class="post-content">
             <p>简记一些常用的函数和 STL 。</p>
+
 <h2 id="c-library">C library</h2>
+
 <h3 id="ctype">ctype</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -224,10 +207,10 @@
 </span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">islower</span>(<span style="color:#458;font-weight:bold">int</span> c);<span style="color:#998;font-style:italic">//判断c是否为小写字母
 </span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">isupper</span>(<span style="color:#458;font-weight:bold">int</span> c);<span style="color:#998;font-style:italic">//判断c是否为大写字母
 </span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">tolower</span>(<span style="color:#458;font-weight:bold">int</span> c);<span style="color:#998;font-style:italic">//大写转小写
-</span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">toupper</span>(<span style="color:#458;font-weight:bold">int</span> c);<span style="color:#998;font-style:italic">//小写转大写
-</span></code></pre></td></tr></table>
+</span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">toupper</span>(<span style="color:#458;font-weight:bold">int</span> c);<span style="color:#000;font-weight:bold">//</span><span style="color:#a61717;background-color:#e3d2d2">小写转大写</span></code></pre></td></tr></table>
 </div>
-</div><h3 id="math">math</h3>
+</div>
+<h3 id="math">math</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -241,10 +224,10 @@
 </span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">double</span> <span style="color:#900;font-weight:bold">cbrt</span>(<span style="color:#458;font-weight:bold">double</span> x);<span style="color:#998;font-style:italic">//立方根
 </span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">double</span> <span style="color:#900;font-weight:bold">hypot</span>(<span style="color:#458;font-weight:bold">double</span> x,<span style="color:#458;font-weight:bold">double</span> y);<span style="color:#998;font-style:italic">//勾股定理斜边
 </span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">double</span> <span style="color:#900;font-weight:bold">fmod</span>(<span style="color:#458;font-weight:bold">double</span> x,<span style="color:#458;font-weight:bold">double</span> y);<span style="color:#998;font-style:italic">//返回x/y的小数余数
-</span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">double</span> <span style="color:#900;font-weight:bold">round</span>(<span style="color:#458;font-weight:bold">double</span> x);<span style="color:#998;font-style:italic">//返回x四舍五入的值，llround()返回long long
-</span></code></pre></td></tr></table>
+</span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">double</span> <span style="color:#900;font-weight:bold">round</span>(<span style="color:#458;font-weight:bold">double</span> x);<span style="color:#000;font-weight:bold">//</span><span style="color:#a61717;background-color:#e3d2d2">返回</span>x四舍五入的值<span style="color:#a61717;background-color:#e3d2d2">，</span>llround()<span style="color:#a61717;background-color:#e3d2d2">返回</span><span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">long</span></code></pre></td></tr></table>
 </div>
-</div><h3 id="stdlib">stdlib</h3>
+</div>
+<h3 id="stdlib">stdlib</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -252,10 +235,10 @@
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">atoi</span>(<span style="color:#000;font-weight:bold">const</span> <span style="color:#458;font-weight:bold">char</span><span style="color:#000;font-weight:bold">*</span>str);<span style="color:#998;font-style:italic">//字符串转为int，atof(),atoll()同理
-</span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">long</span> <span style="color:#900;font-weight:bold">llabs</span>(<span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">long</span> x);<span style="color:#998;font-style:italic">//返回绝对值
-</span></code></pre></td></tr></table>
+</span><span style="color:#998;font-style:italic"></span><span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">long</span> <span style="color:#900;font-weight:bold">llabs</span>(<span style="color:#458;font-weight:bold">long</span> <span style="color:#458;font-weight:bold">long</span> x);<span style="color:#000;font-weight:bold">//</span><span style="color:#a61717;background-color:#e3d2d2">返回绝对值</span></code></pre></td></tr></table>
 </div>
-</div><h3 id="string">string</h3>
+</div>
+<h3 id="string">string</h3>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -317,11 +300,13 @@
 </span><span style="color:#998;font-style:italic">a
 </span><span style="color:#998;font-style:italic">sample
 </span><span style="color:#998;font-style:italic">string
-</span><span style="color:#998;font-style:italic">*/</span>
-</code></pre></td></tr></table>
+</span><span style="color:#998;font-style:italic">*/</span></code></pre></td></tr></table>
 </div>
-</div><h2 id="c-拓展库">C++ 拓展库</h2>
+</div>
+<h2 id="c-拓展库">C++ 拓展库</h2>
+
 <h3 id="rope">rope</h3>
+
 <p>使用 <code>ext/rope</code> 库，需在命名空间 <code>__gnu_cxx</code> 下使用。</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -353,7 +338,8 @@ crope rp; <span style="color:#998;font-style:italic">//特化的rope, 相当于r
 </span><span style="color:#998;font-style:italic"></span>rp[x]; <span style="color:#998;font-style:italic">// 访问第 x 个元素
 </span></code></pre></td></tr></table>
 </div>
-</div><p>可以用它实现可持久操作：</p>
+</div>
+<p>可以用它实现可持久操作：</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -364,14 +350,23 @@ crope rp; <span style="color:#998;font-style:italic">//特化的rope, 相当于r
 his[i] <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">new</span> rope<span style="color:#000;font-weight:bold">&lt;</span><span style="color:#458;font-weight:bold">int</span><span style="color:#000;font-weight:bold">&gt;</span> (<span style="color:#000;font-weight:bold">*</span>his[i <span style="color:#000;font-weight:bold">-</span> <span style="color:#099">1</span>]);
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="pb_ds">pb_ds</h3>
+</div>
+<h3 id="pbds">pb_ds</h3>
+
 <p>一般需要 <code>ext/pb_ds/assoc container.hpp</code> 以及命名空间 <code>__gnu_pbds</code> 。</p>
+
 <h4 id="hash">hash</h4>
+
 <p>需要 <code>ext/pb_ds/hash_policy.hpp</code> 。</p>
-<p>有 <code>cc_hash_table&lt;key, value&gt; </code> 和 <code>gp_hash_table&lt;key, value&gt;</code> ，后者效果好一点。</p>
+
+<p>有 <code>cc_hash_table&lt;key, value&gt;</code> 和 <code>gp_hash_table&lt;key, value&gt;</code> ，后者效果好一点。</p>
+
 <p>支持 find 和 operator[] 。</p>
+
 <p><strong>如果不自己写 hash 函数，没有 unordered_map 快。</strong></p>
+
 <h4 id="tree">tree</h4>
+
 <p>需要 <code>ext/pb_ds/tree_policy.hpp</code> 。</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -417,7 +412,8 @@ find(key), lower_bound(key), upper_bound(key)
 </span><span style="color:#998;font-style:italic"></span>tr.split(key, tree <span style="color:#000;font-weight:bold">&amp;</span>other); <span style="color:#998;font-style:italic">//清空other, 然后把大于key
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="tire">tire</h4>
+</div>
+<h4 id="tire">tire</h4>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -444,7 +440,8 @@ find(key), lower_bound(key), upper_bound(key)
 <span style="color:#998;font-style:italic">//pair中第一个是起始迭代器，第二个是终止迭代器，遍历过去就可以找到所有字符串了。 
 </span></code></pre></td></tr></table>
 </div>
-</div><h4 id="priority_queue">priority_queue</h4>
+</div>
+<h4 id="priorityqueue">priority_queue</h4>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -494,6 +491,19 @@ join(other) <span style="color:#998;font-style:italic">// 合并后other清空
 
         
 
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">Vue 学习笔记</a></li>
+        
+        <li><a href="/archives/">归档</a></li>
+        
+        <li><a href="/search/">搜索</a></li>
+        
+    </ul>
+</div>
+
 
         <div class="post-meta meta-tags">
             
@@ -502,28 +512,19 @@ join(other) <span style="color:#998;font-style:italic">// 合并后other清空
         </div>
     </article>
     
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
     
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "your github repo"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
     
 </div>
 
@@ -556,7 +557,7 @@ join(other) <span style="color:#998;font-style:italic">// 合并后other清空
                 }
             };
     </script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
@@ -567,8 +568,6 @@ join(other) <span style="color:#998;font-style:italic">// 合并后other清空
 
 
 
-
-    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -588,6 +587,10 @@ join(other) <span style="color:#998;font-style:italic">// 合并后other清空
     
     <li>
         <a href="https://changxv.com/post/c_c&#43;&#43;%E5%BA%93%E5%87%BD%E6%95%B0%E5%8F%8A%E5%AE%B9%E5%99%A8/" title="C/C&#43;&#43;库函数及容器">C/C&#43;&#43;库函数及容器</a>
+    </li>
+    
+    <li>
+        <a href="https://changxv.com/post/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="Vue 学习笔记">Vue 学习笔记</a>
     </li>
     
 </ul>
