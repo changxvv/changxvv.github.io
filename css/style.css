@@ -107,7 +107,7 @@ mark {
 }
 pre, code {
     font-family:"UbuntuMono", Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
-    font-size:1em;
+    font-size:.92857em;
 }
 pre {
     overflow:auto;
