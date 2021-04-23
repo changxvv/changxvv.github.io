@@ -2,30 +2,30 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <title type="text">Hugo 主题 MemE</title>
-    <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-04-23T18:17:45&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <title type="text">Chanxv&#39;s Blog</title>
+    <subtitle type="html">Changxv的个人博客</subtitle>
+    <updated>2021-04-24T00:33:25&#43;08:00</updated>
+    <id>https://changxv.com/</id>
+    <link rel="alternate" type="text/html" href="https://changxv.com/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://changxv.com/atom.xml" />
     <author>
-            <name>reuixiy</name>
-            <uri>https://example.com/</uri>
+            <name>Changxv</name>
+            <uri>https://changxv.com/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>48442578@qq.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator>
         <entry>
             <title type="text">格式规范</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/style-guide/" />
-            <id>https://example.com/posts/style-guide/</id>
-            <updated>2021-04-06T22:59:36&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://changxv.com/posts/style-guide/" />
+            <id>https://changxv.com/posts/style-guide/</id>
+            <updated>2021-04-24T00:17:50&#43;08:00</updated>
             <published>2020-08-27T23:54:02&#43;00:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>Changxv</name>
+                    <uri>https://changxv.com/</uri>
+                    <email>48442578@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;在 markdown 格式下进一步的格式要求。&lt;/p&gt;……</summary>
             
@@ -121,7 +121,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
+                                <category scheme="https://changxv.com/categories/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
                             
                         
                     
@@ -133,14 +133,14 @@
     
         <entry>
             <title type="text">FastAPI 学习笔记（二）</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/fastapi-note-2/" />
-            <id>https://example.com/posts/fastapi-note-2/</id>
+            <link rel="alternate" type="text/html" href="https://changxv.com/posts/fastapi-note-2/" />
+            <id>https://changxv.com/posts/fastapi-note-2/</id>
             <updated>2021-04-19T18:00:08&#43;08:00</updated>
             <published>2021-04-15T07:35:05&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>Changxv</name>
+                    <uri>https://changxv.com/</uri>
+                    <email>48442578@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;继续学习 FastAPI 。&lt;/p&gt;……</summary>
             
@@ -1118,7 +1118,7 @@ path -&amp;gt; item_id
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%90%8E%E7%AB%AF/" term="后端" label="后端" />
+                                <category scheme="https://changxv.com/categories/%E5%90%8E%E7%AB%AF/" term="后端" label="后端" />
                             
                         
                     
@@ -1128,19 +1128,19 @@ path -&amp;gt; item_id
                             
                             
                             
-                                <category scheme="https://example.com/tags/fastapi/" term="FastAPI" label="FastAPI" />
+                                <category scheme="https://changxv.com/tags/fastapi/" term="FastAPI" label="FastAPI" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/python/" term="python" label="python" />
+                                <category scheme="https://changxv.com/tags/python/" term="python" label="python" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/web%E6%A1%86%E6%9E%B6/" term="web框架" label="web框架" />
+                                <category scheme="https://changxv.com/tags/web%E6%A1%86%E6%9E%B6/" term="web框架" label="web框架" />
                             
                         
                     
@@ -1150,14 +1150,14 @@ path -&amp;gt; item_id
     
         <entry>
             <title type="text">FastAPI 学习笔记（一）</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/fastapi-note-1/" />
-            <id>https://example.com/posts/fastapi-note-1/</id>
+            <link rel="alternate" type="text/html" href="https://changxv.com/posts/fastapi-note-1/" />
+            <id>https://changxv.com/posts/fastapi-note-1/</id>
             <updated>2021-04-15T07:41:54&#43;08:00</updated>
             <published>2021-03-24T20:17:44&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>Changxv</name>
+                    <uri>https://changxv.com/</uri>
+                    <email>48442578@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;FastAPI 是一个新的基于 Python 语言的 Web 框架，其特点是轻量、安全、快速（号称和 NodeJS, Go 差不多快）。以下是学习笔记（第一部分）。&lt;/p&gt;……</summary>
             
@@ -1694,7 +1694,7 @@ path -&amp;gt; item_id
     &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;results&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这时候请求体格式就是（与 &lt;a href=&#34;https://example.com/posts/fastapi-note-1/#%E5%9F%BA%E7%A1%80&#34;&gt;之前&lt;/a&gt; 的不同，多了一层 item 的嵌套）：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;这时候请求体格式就是（与 &lt;a href=&#34;https://changxv.com/posts/fastapi-note-1/#%E5%9F%BA%E7%A1%80&#34;&gt;之前&lt;/a&gt; 的不同，多了一层 item 的嵌套）：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -1968,7 +1968,7 @@ path -&amp;gt; item_id
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%90%8E%E7%AB%AF/" term="后端" label="后端" />
+                                <category scheme="https://changxv.com/categories/%E5%90%8E%E7%AB%AF/" term="后端" label="后端" />
                             
                         
                     
@@ -1978,19 +1978,19 @@ path -&amp;gt; item_id
                             
                             
                             
-                                <category scheme="https://example.com/tags/fastapi/" term="FastAPI" label="FastAPI" />
+                                <category scheme="https://changxv.com/tags/fastapi/" term="FastAPI" label="FastAPI" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/python/" term="python" label="python" />
+                                <category scheme="https://changxv.com/tags/python/" term="python" label="python" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/web%E6%A1%86%E6%9E%B6/" term="web框架" label="web框架" />
+                                <category scheme="https://changxv.com/tags/web%E6%A1%86%E6%9E%B6/" term="web框架" label="web框架" />
                             
                         
                     
@@ -2000,14 +2000,14 @@ path -&amp;gt; item_id
     
         <entry>
             <title type="text">C/C&#43;&#43;库函数及容器</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/c-c&#43;&#43;stl/" />
-            <id>https://example.com/posts/c-c&#43;&#43;stl/</id>
-            <updated>2021-04-19T17:58:40&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://changxv.com/posts/c-c&#43;&#43;stl/" />
+            <id>https://changxv.com/posts/c-c&#43;&#43;stl/</id>
+            <updated>2021-04-24T00:14:22&#43;08:00</updated>
             <published>2020-12-20T20:56:51&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>Changxv</name>
+                    <uri>https://changxv.com/</uri>
+                    <email>48442578@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;简记一些常用的函数和 STL 。&lt;/p&gt;……</summary>
             
@@ -2305,7 +2305,7 @@ path -&amp;gt; item_id
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" term="编程语言" label="编程语言" />
+                                <category scheme="https://changxv.com/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" term="编程语言" label="编程语言" />
                             
                         
                     
@@ -2315,13 +2315,13 @@ path -&amp;gt; item_id
                             
                             
                             
-                                <category scheme="https://example.com/tags/c/c-/" term="C/C&#43;&#43;" label="C/C&#43;&#43;" />
+                                <category scheme="https://changxv.com/tags/c/c-/" term="C/C&#43;&#43;" label="C/C&#43;&#43;" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/icpc/" term="ICPC" label="ICPC" />
+                                <category scheme="https://changxv.com/tags/icpc/" term="ICPC" label="ICPC" />
                             
                         
                     
